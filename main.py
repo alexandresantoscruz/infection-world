@@ -47,7 +47,7 @@ class Character(pygame.sprite.Sprite):
 
     def spriteWalking(self):
         self.spriteWalking = []
-        self.spriteWalking.append(pygame.image.load("./sprite/character/walking/img1.png"))
+        self.spriteWalking.append(pygame.image.load("./sprite/character/walking/img1.png"));
         self.spriteWalking.append(pygame.image.load("./sprite/character/walking/img2.png"))
         self.spriteWalking.append(pygame.image.load("./sprite/character/walking/img3.png"))
         self.spriteWalking.append(pygame.image.load("./sprite/character/walking/img4.png"))
